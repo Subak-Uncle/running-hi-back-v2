@@ -2,7 +2,6 @@ package com.runninghi.runninghibackv2.domain.entity;
 
 import com.runninghi.runninghibackv2.domain.entity.vo.BookmarkId;
 import jakarta.persistence.*;
-import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.OnDelete;
@@ -10,7 +9,7 @@ import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
 @Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor
 @Table(name = "TBL_BOOKMARK")
 public class Bookmark {
 
